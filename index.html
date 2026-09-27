@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter-Strike 2 — Обзор игры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- СЕКЦИЯ 1: Навбар и Главный экран (В стиле шапки референса) -->
+    <header class="hero-section">
+        <!-- Анимированный задний фон внутри первого экрана -->
+        <div class="bg-wrapper">
+            <div class="bg-image" style="background-image: url('mainpic.webp');"></div>
+            <div class="bg-overlay"></div>
+        </div>
+
+        <nav class="navbar">
+            <div class="nav-logo">
+                <span class="logo-icon">🎯</span> CS2.Guide
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Об игре</a></li>
+                <li><a href="#modes">Режимы</a></li>
+                <li><a href="#specs">Железо</a></li>
+            </ul>
+            <a href="https://steampowered.com" target="_blank" class="btn-nav">Играть</a>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Tactical gaming <br><span class="gradient-text">made competitive</span></h1>
+            <p class="hero-subtitle">Честный разбор обновленного культового шутера: от экономики скинов до скрытых технических нюансов геймплея.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn-primary">Читать обзор</a>
+                <a href="https://steampowered.com" target="_blank" class="btn-secondary">В Steam</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- СЕКЦИЯ 2: Светлый контентный блок с парящими элементами по бокам -->
+    <section id="about" class="content-section">
+        
+        <!-- Стилизованные графические элементы по бокам в стиле референса -->
+        <div class="side-element element-left">🛡️</div>
+        <div class="side-element element-right">🔑</div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2>Игровой процесс и экономика, <br><span class="text-accent">интуитивные для каждого</span></h2>
+                <p class="section-desc">
+                    Counter-Strike 2 — это реалистичный шутер, где скилл решает все, а косметические предметы формируют огромную экосистему. Чтобы полноценно прокачиваться и получать качественный дроп кейсов и скинов, игроку необходим <strong>Премиум-статус (Prime)</strong> стоимостью около 1200 рублей.
+                </p>
+            </div>
+
+            <!-- Интерактивные плашки в стиле "блоков кода/событий" из референса -->
+            <div class="features-wrapper">
+                <div class="feature-bar warning">
+                    <span class="bar-icon">⚠️</span>
+                    <p><strong>Подбор игроков:</strong> После покупки премиума вам периодически будут попадаться опытные про-игроки.</p>
+                </div>
+                <div class="feature-bar danger">
+                    <span class="bar-icon">❌</span>
+                    <p><strong>Минусы комьюнити:</strong> Около 35–45% игроков токсичны, а регистрация урона от пуль иногда дает сбой.</p>
+                </div>
+                <div class="feature-bar success">
+                    <span class="bar-icon">✅</span>
+                    <p><strong>Оптимизация:</strong> Игра отлично идет даже на обычном рабочем ноутбуке за 40 000 рублей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ 3: Темный футер с режимами и историей -->
+    <section id="modes" class="footer-section">
+        <div class="container">
+            <h2>Доступные режимы <br><span class="gradient-text">в пару кликов</span></h2>
+            <p class="footer-desc">Быстрый поиск матчей и разнообразие игровых ситуаций под любой стиль тренировок.</p>
+            
+            <div class="modes-grid">
+                <div class="mode-item"><strong>Закладка бомбы</strong> (3х3 / 5х5)</div>
+                <div class="mode-item"><strong>Напарники</strong> (2х2)</div>
+                <div class="mode-item"><strong>Все против всех</strong> (DM)</div>
+            </div>
+
+            <footer class="sub-footer">
+                <p><strong>Историческая справка:</strong> Первая версия игры вышла в 1999 году как пользовательский мод для Half-Life. Спустя десятилетия она остается главным соревновательным шутером планеты.</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
